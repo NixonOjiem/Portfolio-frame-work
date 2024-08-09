@@ -1,0 +1,32 @@
+#contentTwo{
+    z-index: 5;
+    height: auto;
+    background-color: #fdfdfd;
+    scroll-behavior: smooth;
+    display: flex;
+}
+#contentTwo #secondImage{
+    float: right;
+    width: 55%;
+    padding: 10px;
+    clear: both;
+    margin-top: 1%;
+}
+
+#contentTwo #secondParagraph{
+    padding: 10px;
+    float: left;
+    width: 50%;
+    clear: both;
+}
+#contentTwo #secondParagraph P{
+    margin-top: 20%;
+    text-align: justify;
+}
+#secondImage h1{
+    padding: 10px;
+    margin-left: 20%;
+}
+#children{
+    float: right;
+}

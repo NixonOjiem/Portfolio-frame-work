@@ -1,0 +1,32 @@
+*{
+    overflow-x: hidden;
+}
+#contentOne{
+    /* margin-top: 100vh; */
+    z-index: 5;
+    height: auto;
+    background-color: #fdfdfd;
+    scroll-behavior: smooth;
+    display: flex;
+}
+#contentOne #firstHeading{
+    float: left;
+    width: 45%;
+    padding: 10px;
+    clear: both;
+    margin-top: 1%;
+}
+#contentOne #firstParagraph{
+    padding: 10px;
+    float: left;
+    width: 50%;
+    clear: both;
+}
+#contentOne #firstHeading img{
+    border-radius: 35%;
+    width: 600px;
+}
+#contentOne #firstParagraph p{
+    margin-top: 20%;
+    text-align: justify;
+}
